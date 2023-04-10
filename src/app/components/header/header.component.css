@@ -1,0 +1,16 @@
+div h1 {
+    height: fit-content;
+    padding: 0;
+    margin: auto;
+    text-transform: uppercase;
+    font-family: Helvetica;
+    font-size: 6rem;
+    color: #fff;
+}
+
+div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
