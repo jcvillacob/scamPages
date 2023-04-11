@@ -8,6 +8,8 @@ import { FooterComponent } from './components/footer/footer.component';
 import { HeaderComponent } from './components/header/header.component';
 import { HomeComponent } from './components/home/home.component';
 import { FotografiaComponent } from './components/fotografia/fotografia.component';
+import { ContenidoComponent } from './components/contenido/contenido.component';
+import { DesarrolloComponent } from './components/desarrollo/desarrollo.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +18,9 @@ import { FotografiaComponent } from './components/fotografia/fotografia.componen
     FooterComponent,
     HeaderComponent,
     HomeComponent,
-    FotografiaComponent
+    FotografiaComponent,
+    ContenidoComponent,
+    DesarrolloComponent
   ],
   imports: [
     BrowserModule,

@@ -1,11 +1,32 @@
-<div>
-    <div *ngIf="currentRoute === '/'">
+<div *ngIf="currentRoute === '/'" class="header-content">
+    <div class="text-container">
         <h1>INICIO</h1>
     </div>
-    <div *ngIf="currentRoute === '/ruta1'">
-        <h1>RUTA 1</h1>
+    <div class="image-container">
+        <img src="https://www.losabogadosasesores.com/wp-content/uploads/2018/10/cuidado-con-estas-modalidades-de-estafa-vigentes.jpg" alt="Imagen de inicio">
     </div>
-    <div *ngIf="currentRoute === '/ruta2'">
-        <h1>RUTA 2</h1>
+</div>
+<div *ngIf="currentRoute === '/fotografia'" class="header-content">
+    <div class="text-container">
+        <h1>FOTOGRAFIA</h1>
+    </div>
+    <div class="image-container">
+        <img src="https://www.losabogadosasesores.com/wp-content/uploads/2018/10/cuidado-con-estas-modalidades-de-estafa-vigentes.jpg" alt="Imagen de fotografía">
+    </div>
+</div>
+<div *ngIf="currentRoute === '/contenido'" class="header-content">
+    <div class="text-container">
+        <h1>CREACIÓN DE CONTENIDO</h1>
+    </div>
+    <div class="image-container">
+        <img src="https://www.losabogadosasesores.com/wp-content/uploads/2018/10/cuidado-con-estas-modalidades-de-estafa-vigentes.jpg" alt="Imagen de creación de contenido">
+    </div>
+</div>
+<div *ngIf="currentRoute === '/desarrollo'" class="header-content">
+    <div class="text-container">
+        <h1>DESARROLLO WEB</h1>
+    </div>
+    <div class="image-container">
+        <img src="https://www.losabogadosasesores.com/wp-content/uploads/2018/10/cuidado-con-estas-modalidades-de-estafa-vigentes.jpg" alt="Imagen de creación de contenido">
     </div>
 </div>
